@@ -1,0 +1,42 @@
+{
+  "name": "neuromancer",
+  "displayName": "Neur0mancer",
+  "version": "1.0.0",
+  "publisher": "Eur0nymous",
+  "description": "A new format to see the matrix....",
+  "author": "João Victor F. Braga",
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#008000",
+    "theme": "dark"
+  },
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "main": "./out/extension",
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^0.10.x",
+    "typescript": "^1.6.2"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/microsoft/vscode-wordcount/issues",
+    "email": "john.morningstars@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eur0nymous/Neuromancer-Theme.git"
+  },
+  "homepage": "https://github.com/Eur0nymous/Neuromancer-Theme",
+  "keywords": ["vs code", "hacker", "cyberpunk", "matrix", "neuromancer"]
+}
